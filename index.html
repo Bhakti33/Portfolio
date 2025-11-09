@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhakti Baraf - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Bhakti Baraf</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" style="background-color: var(--accent);">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <div class="hero-content">
+                        <p class="hero-subtitle">Hi, my name is</p>
+                        <h1 class="hero-title">Bhakti Anil Baraf</h1>
+                        <p class="hero-description">
+                            I'm a Computer Engineering student specializing in Android development and full-stack solutions. 
+                            I build exceptional digital experiences that combine functionality with elegant design.
+                        </p>
+                        <a href="#contact" class="btn-custom">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 text-center">
+                    <div class="image-upload-section">
+                        <div class="upload-placeholder" id="uploadPlaceholder">
+                            <img src="./My_image.jpeg" alt="Bhakti Baraf" class="profile-image">
+                        </div>
+                        <p class="upload-text">Bhakti Baraf</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p class="about-text">
+                    I'm currently pursuing my B.Tech in Computer Engineering at Veermata Jijabai Institute and Technology, Matunga. 
+                    With a strong foundation from my diploma at Bhausaheb Vartak Polytechnic where I achieved 91.03%, 
+                    I've developed a passion for creating innovative solutions through technology.
+                </p>
+                <p class="about-text mt-3">
+                    My journey in software development has been driven by curiosity and a desire to solve real-world problems. 
+                    I specialize in Android application development and have hands-on experience with modern technologies 
+                    including Java, Python, Firebase, and Android Studio. I'm constantly learning and adapting to new 
+                    technologies to create efficient and user-friendly applications.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="skill-category">
+                        <h4><i class="fas fa-code"></i> Programming Languages</h4>
+                        <div>
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">C++</span>
+                            <span class="skill-tag">PHP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill-category">
+                        <h4><i class="fas fa-tools"></i> Tools & Technologies</h4>
+                        <div>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">Git & GitHub</span>
+                            <span class="skill-tag">Firebase</span>
+                            <span class="skill-tag">Android Studio</span>
+                            <span class="skill-tag">XML</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-card">
+                <p class="education-year">2024 - 2027</p>
+                <h3 class="education-title">B.Tech in Computer Engineering</h3>
+                <p class="education-institution">Veermata Jijabai Institute and Technology, Matunga</p>
+            </div>
+            <div class="education-card">
+                <p class="education-year">2021 - 2024</p>
+                <h3 class="education-title">Diploma in Computer Engineering</h3>
+                <p class="education-institution">Bhausaheb Vartak Polytechnic, Vasai</p>
+                <p class="education-score">Score: 91.03%</p>
+            </div>
+            <div class="education-card">
+                <p class="education-year">2021</p>
+                <h3 class="education-title">SSC (Secondary School Certificate)</h3>
+                <p class="education-institution">Sopara English School, Nallasopara</p>
+                <p class="education-score">Score: 92%</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Project</h2>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="project-card">
+                        <i class="fas fa-mobile-alt project-icon"></i>
+                        <h3 class="project-title">DocEase - Healthcare Appointment Management</h3>
+                        <p class="project-description">
+                            An Android-based application revolutionizing healthcare appointment management. DocEase enables 
+                            patients to seamlessly book appointments with healthcare providers, search for doctors by location, 
+                            and receive automated appointment reminders.
+                        </p>
+                        <p class="project-description">
+                            <strong>Key Features:</strong>
+                        </p>
+                        <ul class="experience-list">
+                            <li>Intuitive appointment scheduling system reducing booking hassle</li>
+                            <li>Location-based doctor search functionality</li>
+                            <li>Automated appointment reminders to reduce no-shows</li>
+                            <li>Streamlined clinic operations and resource management</li>
+                            <li>Significantly reduced waiting times for patients</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-badge">Java</span>
+                            <span class="tech-badge">XML</span>
+                            <span class="tech-badge">Firebase</span>
+                            <span class="tech-badge">Android Studio</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-card">
+                <p class="experience-period">June 2023 - July 2023</p>
+                <h3 class="experience-role">App Development Intern</h3>
+                <p class="experience-company">Prayas Developers, Nalasopara</p>
+                <ul class="experience-list">
+                    <li>Gained comprehensive hands-on experience in Android application development</li>
+                    <li>Successfully worked on a project individually as part of a two-member team, demonstrating strong collaboration skills</li>
+                    <li>Learned and implemented Firebase for robust backend services and real-time database management</li>
+                    <li>Developed functional applications using Android Studio and Java, following industry best practices</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Get In Touch</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-5 mb-4">
+                    <div class="contact-info">
+                        <i class="fas fa-envelope contact-icon"></i>
+                        <h4 class="contact-title">Email</h4>
+                        <a href="mailto:bhaktibaraf@gamil.com" class="contact-detail">bhaktibaraf@gamil.com</a>
+                    </div>
+                </div>
+                <div class="col-md-5 mb-4">
+                    <div class="contact-info">
+                        <i class="fas fa-phone contact-icon"></i>
+                        <h4 class="contact-title">Phone</h4>
+                        <a href="tel:8600173732" class="contact-detail">8600173732</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Bhakti Baraf. Built with passion and code.</p>
+        </div>
+    </footer>
+</body>
+</html>
